@@ -11,7 +11,7 @@ const Result = ({score, total})=>{
         const updatedScores = [...savedScore, newScore];
 
         localStorage.setItem('leaderboard',JSON.stringify(updatedScores));
-        setLeaderboard(updatedScores);
+        setLeaderboard(updatedScores.reverse());
     }, [score, total]);
 
     return(<div className='result-container'>

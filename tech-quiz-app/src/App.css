@@ -1,6 +1,3 @@
-/* src/App.css */
-
-/* General styling */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
@@ -65,12 +62,9 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
-  
   button:hover {
     background-color: #0056b3;
   }
-  
-  /* Result Page Styling */
   .result-container {
     text-align: center;
   }
@@ -95,8 +89,6 @@ body {
     padding: 10px;
     margin-bottom: 5px;
   }
-  
-  /* Timer styling */
   .timer {
     font-size: 1.2rem;
     font-weight: bold;
