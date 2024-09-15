@@ -1,0 +1,105 @@
+/* src/App.css */
+
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .App-header {
+    background-color: #007bff;
+    padding: 20px;
+    color: white;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .quiz-container {
+    background-color: white;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Result Page Styling */
+  .result-container {
+    text-align: center;
+  }
+  
+  .result-container h2 {
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  .result-container button {
+    margin-top: 20px;
+  }
+  
+  .result-container ul {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .result-container li {
+    background-color: #f4f4f9;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  /* Timer styling */
+  .timer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff6347;
+  }
+  
